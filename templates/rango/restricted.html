@@ -1,0 +1,18 @@
+{% extends 'rango/base.html' %}
+{% load staticfiles %}
+
+<html>
+
+    <head>
+        {%block title_block%}
+        Restricted
+        {%endblock%}
+    </head>
+
+    <body>
+        {% block body_block %}
+        <p1>Since you're logged in, you can see this text!</p1>
+        {% endblock %}
+    </body>
+
+</html>
